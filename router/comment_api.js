@@ -53,7 +53,7 @@ router.get('/getall', verify.verifytoken, async (req, res) => {
 
 
 // fetch single data (get)
-router.get('/getsingle/:id', verify.verifytoken, async (req, res) => {
+router.get('/getsingle/:id',  async (req, res) => {
     // console.log('Your Comment is Fetched Successfully',req.params);
 
     try {
