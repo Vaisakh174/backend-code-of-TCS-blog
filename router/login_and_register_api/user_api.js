@@ -141,6 +141,7 @@ router.post("/verify", async (req, res) => {
 //otp generation and send  to email,DB
 router.post("/otp", async (req, res) => {
     try {
+        
         //new otp gen...
         const otpObject = {
             email: req.body.email,
